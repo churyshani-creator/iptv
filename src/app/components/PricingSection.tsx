@@ -7,18 +7,18 @@ import { MessageCircle, Send, Check, Zap } from "lucide-react";
 
 // Default pricing in GBP
 const basePrices = {
-  monthly: 20.99,
-  quarterly: 40.99,
-  yearly: 70.99,
-  twoyear: 110.99,
+  monthly: 25,
+  quarterly: 70,
+  yearly: 120,
+  twoyear: 180,
 };
 
 // Fake original prices (higher than actual)
 const fakeOriginalPrices = {
-  monthly: 40.99,
-  quarterly: 79.99,
-  yearly: 140.99,
-  twoyear: 220.99,
+  monthly: 50,
+  quarterly: 140,
+  yearly: 240,
+  twoyear: 360,
 };
 
 export const PricingSection = () => {
