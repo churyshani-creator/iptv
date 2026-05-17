@@ -2,15 +2,30 @@
 "use client";
 
 import Link from "next/link";
+import { MessageCircle, Send } from "lucide-react";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
+
+  // Admin WhatsApp number
+  const ADMIN_WHATSAPP = "+447472958379";
+  
+  // Telegram username
+  const TELEGRAM_USERNAME = "nexusstreampro";
 
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
+  };
+
+  const openWhatsApp = () => {
+    window.open(`https://wa.me/${ADMIN_WHATSAPP.replace("+", "")}`, "_blank");
+  };
+
+  const openTelegram = () => {
+    window.location.href = `tg://resolve?domain=${TELEGRAM_USERNAME}`;
   };
 
   return (
@@ -24,9 +39,26 @@ export const Footer = () => {
               </div>
               <span className="text-lg font-bold">NexusStreamPro</span>
             </div>
-            <p className="text-gray-400 text-sm">
+            <p className="text-gray-400 text-sm mb-4">
               Premium IPTV subscription service with 10,000+ channels, 4K quality, and instant activation.
             </p>
+            {/* Social Buttons */}
+            <div className="flex gap-3">
+              <button
+                onClick={openWhatsApp}
+                className="flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200"
+              >
+                <MessageCircle className="w-4 h-4" />
+                WhatsApp
+              </button>
+              <button
+                onClick={openTelegram}
+                className="flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200"
+              >
+                <Send className="w-4 h-4" />
+                Telegram
+              </button>
+            </div>
           </div>
           <div>
             <h4 className="font-semibold text-white mb-4">Quick Links</h4>
@@ -40,8 +72,12 @@ export const Footer = () => {
           <div>
             <h4 className="font-semibold text-white mb-4">Support</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="https://wa.me/15551234567" target="_blank" className="text-gray-400 hover:text-white transition">WhatsApp Support</a></li>
-              <li><a href="https://instagram.com/nexusstream" target="_blank" className="text-gray-400 hover:text-white transition">Instagram</a></li>
+              <li><button onClick={openWhatsApp} className="text-gray-400 hover:text-white transition flex items-center gap-2">
+                <MessageCircle className="w-3 h-3" /> WhatsApp Support
+              </button></li>
+              <li><button onClick={openTelegram} className="text-gray-400 hover:text-white transition flex items-center gap-2">
+                <Send className="w-3 h-3" /> Telegram Channel
+              </button></li>
               <li><button onClick={() => scrollToSection("#contact")} className="text-gray-400 hover:text-white transition">Contact Us</button></li>
             </ul>
           </div>
@@ -55,6 +91,11 @@ export const Footer = () => {
         </div>
         <div className="border-t border-white/10 pt-8 text-center text-gray-500 text-sm">
           <p>&copy; {currentYear} NexusStreamPro. All rights reserved.</p>
+          <div className="flex justify-center gap-4 mt-3">
+            <button onClick={openWhatsApp} className="text-gray-500 hover:text-green-400 transition text-xs">WhatsApp</button>
+            <button onClick={openTelegram} className="text-gray-500 hover:text-blue-400 transition text-xs">Telegram</button>
+            <button onClick={() => scrollToSection("#contact")} className="text-gray-500 hover:text-white transition text-xs">Contact</button>
+          </div>
         </div>
       </div>
     </footer>
