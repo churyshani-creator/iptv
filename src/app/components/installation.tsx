@@ -401,7 +401,7 @@ export const InstallationProcess  = () => {
             <div className="flex text-yellow-400">
               {"★".repeat(5)}
             </div>
-            <span className="text-sm text-gray-300">4.0/5 based on 10,000+ reviews</span>
+            <span className="text-sm text-gray-300">4.8/5 based on 10,000+ reviews</span>
           </div>
         </motion.div>
 
