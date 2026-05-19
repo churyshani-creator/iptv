@@ -276,7 +276,7 @@ export const PricingSection = () => {
         >
           <p className="text-xs text-gray-500 mb-3">Secure payments accepted</p>
           <div className="flex flex-wrap justify-center gap-3">
-            {["Visa", "Mastercard", "American Express", "PayPal", "Crypto", "Apple Pay", "Google Pay"].map((method) => (
+            {["Visa", "Mastercard",  "PayPal", "Google Pay"].map((method) => (
               <span key={method} className="glass px-3 py-1 rounded-full text-xs text-gray-400">
                 {method}
               </span>
