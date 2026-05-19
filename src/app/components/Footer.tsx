@@ -40,7 +40,7 @@ export const Footer = () => {
               <span className="text-lg font-bold">NexusStreamPro</span>
             </div>
             <p className="text-gray-400 text-sm mb-4">
-              Premium IPTV subscription service with 10,000+ channels, 4K quality, and instant activation.
+              Premium Nexus Stream subscription service with 10,000+ channels, 4K quality, and instant activation.
             </p>
             {/* Social Buttons */}
             <div className="flex gap-3">

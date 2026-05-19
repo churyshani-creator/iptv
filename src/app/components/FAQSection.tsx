@@ -7,11 +7,11 @@ import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    question: "What is IPTV and how does it work?",
-    answer: "IPTV (Internet Protocol Television) delivers television content over the internet instead of traditional cable or satellite. With our service, you can stream live TV channels, movies, and shows directly on your device using our app or any compatible IPTV player.",
+    question: "What is Nexus Stream and how does it work?",
+    answer: "Nexus Stream delivers television content over the internet instead of traditional cable or satellite. With our service, you can stream live TV channels, movies, and shows directly on your device using our app or any compatible Nexus Stream player.",
   },
   {
-    question: "Is IPTV legal?",
+    question: "Is Nexus Stream legal?",
     answer: "Our service only aggregates publicly available content and channels. We strongly advise our customers to check their local laws regarding streaming content. We do not host any content ourselves - we only provide access to streams.",
   },
   {

@@ -241,7 +241,7 @@ export const InstallationProcess  = () => {
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mt-2">
             How to Install{" "}
-            <span className="gradient-text">IPTV</span>
+            <span className="gradient-text">Nexus Stream</span>
           </h2>
           <p className="text-gray-400 mt-4">
             Select your device below to see step-by-step instructions

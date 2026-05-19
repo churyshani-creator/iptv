@@ -57,7 +57,7 @@ export const HeroBanner = () => {
             transition={{ delay: 0.3, duration: 0.5 }}
             className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight"
           >
-            Premium IPTV Subscription –{" "}
+            Premium Nexus Stream Subscription –{" "}
             <span className="gradient-text">Watch Everything</span> in One Place
           </motion.h1>
 

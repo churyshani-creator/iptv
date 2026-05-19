@@ -37,7 +37,7 @@ const recentFeedbacks: Feedback[] = [
     avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80",
     country: "France",
     rating: 5,
-    comment: "Finally an IPTV that actually works! The EPG is accurate and customer support responded within 2 minutes on WhatsApp.",
+    comment: "Finally an Nexus Stream that actually works! The EPG is accurate and customer support responded within 2 minutes on WhatsApp.",
     date: "5 hours ago",
     likes: 32,
     verified: true,

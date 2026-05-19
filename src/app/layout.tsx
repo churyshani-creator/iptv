@@ -11,7 +11,7 @@ import { LiveActivityFeed } from "./components/LiveActivityFeed";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "NexusStreamPro - Premium IPTV Subscription",
+  title: "NexusStreamPro - Premium Nexus Stream Subscription",
   description: "10,000+ channels, 4K quality, sports, movies, and TV shows. Instant activation. Watch on any device.",
 };
 

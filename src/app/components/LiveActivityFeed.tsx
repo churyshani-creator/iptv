@@ -66,7 +66,7 @@ export const LiveActivityFeed = () => {
         type: "review",
         user: "Sarah",
         action: "left a review",
-        detail: "⭐⭐⭐⭐⭐ Best IPTV!",
+        detail: "⭐⭐⭐⭐⭐ Best Nexus Stream!",
         timeAgo: "5 min ago",
         timestamp: Date.now() - 300000,
       },

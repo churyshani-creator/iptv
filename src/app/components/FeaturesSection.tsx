@@ -56,7 +56,7 @@ export const FeaturesSection = () => {
             <span className="gradient-text">Premium Streaming</span>
           </h2>
           <p className="text-gray-400 mt-4">
-            Experience television like never before with our cutting-edge IPTV service
+            Experience television like never before with our cutting-edge Nexus Stream service
           </p>
         </motion.div>
 
