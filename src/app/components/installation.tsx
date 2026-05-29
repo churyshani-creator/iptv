@@ -34,7 +34,7 @@ const devices: Device[] = [
       "Go to Settings → My Fire TV → Developer Options",
       "Click 'Install Unknown Apps' and enable for Downloader",
       "Open Downloader app, click Allow, then OK",
-      "Enter URL: https://www.iptvsmarters.com/smarters.apk and click Go",
+      "Open Downloader, enter code 28907, then install IPTV Smarters Pro OR Enter URL: https://www.iptvsmarters.com/smarters.apk and click Go",
       "Wait for download, click Install, then Done",
       "Open IPTV Smarters and choose 'Login with Xtream Codes API'",
       "Enter the login details we sent you via WhatsApp or Email"
